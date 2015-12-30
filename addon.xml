@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.chargescombr" name="charges.com.br" version="0.1" provider-name="awmaximus">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary>Videos de charges.com.br</summary>
+    <description>Videos de charges.com.br criados por Mauricio Ricardo e sua equipe.</description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website>http://www.charges.com.br</website>
+    <source>https://github.com/awmaximus/plugin.video.chargescombr</source>
+  </extension>
+</addon>

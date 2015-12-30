@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <!-- Plugin name -->
+  <string id="30000">chargescombr</string>
+  
+  <!-- Settings -->
+  <string id="33000">General</string>
+  <string id="33001">Resolution</string>
+  <string id="33002">Limit</string>
+</strings>
