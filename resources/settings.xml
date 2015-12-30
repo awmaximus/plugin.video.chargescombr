@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
   <category label="33000">
-    <setting id="chargescombr.resolution" type="select" label="33001" values="360p|720p|1080p" />
-    <setting id="chargescombr.limit"      type="slider" label="33002" default="20" range="5,5,100" option="int" />
+    <setting id="chargescombr.resolution" type="select" label="33001" default="720p" values="360p|720p|1080p" />
+    <setting id="chargescombr.limit"      type="slider" label="33002" default="20"   range="5,5,100" option="int" />
   </category>
 </settings>
