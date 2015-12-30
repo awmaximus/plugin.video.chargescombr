@@ -7,10 +7,13 @@ import json
 import gzip
 import StringIO
 
+USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1'
+REFERER = 'http://player.mais.uol.com.br'
+
 BASE_LIST_URL = 'http://mais.uol.com.br/sys/content/listResumed.json?types=V,S&codProfile=efu0mq20a6k4&index.currentPage=1&index.itemsPerPage={0}'
 BASE_INFO_URL = 'http://mais.uol.com.br/apiuol/v3/player/getMedia/{0}.json'
 BASE_THUMB_URL = 'http://thumb.mais.uol.com.br/{0}.jpg'
-POS_STREAM_URL = '?r=http%3A%2F%2Fplayer.mais.uol.com.br'
+POS_STREAM_URL = '|Referer={0}&User-Agent={1}'.format(REFERER,USER_AGENT)
 
 RESOLUTION_CODE_MAP = {'360p':'2','720p':'5','1080p':'7'}
 
